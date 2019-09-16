@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/viewOne"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_height="60dp"
+        android:layout_width="60dp"
+        android:text="VIsta 1"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewTwo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/viewOne"
+        android:layout_alignEnd="@id/viewOne"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="Vista 2"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewthree"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/viewOne"
+        android:layout_marginTop="0dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_bright"
+        android:gravity="center"
+        android:text="Vista 4"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewfour"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@+id/viewOne"
+        android:layout_centerVertical="true"
+        android:background="@android:color/holo_green_dark"
+        android:gravity="center"
+        android:text="Vista 3"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewfive"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/viewOne"
+        android:background="@android:color/holo_orange_dark"
+        android:gravity="center"
+        android:text="Vista 5"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
